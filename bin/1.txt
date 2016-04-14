@@ -1,0 +1,14 @@
+    UIImageView *_headImageView;
+    UILabel *_nameLabel;
+    UILabel *_timeLabel;
+    UILabel *_messageContentLabel;
+    NSInteger _messageContentNumberOfLines;
+    UIImageView *_imageView;
+    UIView *_line;
+    UIButton *_reply; //回复
+    UIButton *_clickConfirm; //点击确认
+    UIButton *_viewParticipant;//查看参与人
+    UIButton *_confirmInfo; //确认信息 （如全部已确认)
+    BiDa *_bida;
+    UIImage *_replyImage;
+    UIImage *_replyImageWithRedPoint;
